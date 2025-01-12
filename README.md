@@ -40,8 +40,6 @@ install.packages("devtools")
 devtools::install_github("AvanKarnebeek/TSECalculatoR")
 ```
 
-Replace `AvanKarnebeek` with your GitHub username.
-
 ## Usage
 
 Here’s an example of how to use the functions in `TSECalculatoR`:
