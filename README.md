@@ -71,6 +71,19 @@ head(classification_results)
   - Genes as rows.
   - Patient IDs as columns.
 
+## Using the TSECalculatoR in a Website
+If you want to integrate the `TSECalculatoR` package directly into a website, you can use the provided Shiny app. To do this:
+1. Copy the code of the `app.R` file from the repository.
+2. Save it to your local machine or server.
+3. Run the app using the `shiny` package:
+
+```R
+library(shiny)
+runApp("path_to_app_directory")
+```
+
+This will launch the app locally or on a server, allowing users to interact with the TSECalculatoR via a web interface.
+
 ## Citation
 If you use this package, please cite the code developed by **Rijnders et al.** available at [https://github.com/ANakauma/TSEscore_ICIs](https://github.com/ANakauma/TSEscore_ICIs).
 
@@ -79,4 +92,5 @@ This package is released under the [MIT License](LICENSE).
 
 ---
 
-For any questions or issues, please contact Alexine van Karnebeek at a.vankarnebeek@erasmusmc.nl . 
+For any questions or issues, please contact Alexine van Karnebeek at a.vankarnebeek@erasmusmc.nl.
+
